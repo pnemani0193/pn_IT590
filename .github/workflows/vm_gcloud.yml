@@ -33,4 +33,4 @@ jobs:
           token_file: ${{ secrets.GCLOUD_ACCESS_TOKEN }}
           config_file: ${{ secrets.GCLOUD_VM_CONFIG }}
         run: |
-          pn_assignment10/vm_create.sh $project_file $token_file $config_file
+          pn_assignment10/run.sh $project_file $token_file $config_file
